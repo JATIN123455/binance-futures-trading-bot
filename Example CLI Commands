@@ -1,0 +1,29 @@
+Market Order
+python bot.py \
+--api_key YOUR_KEY \
+--api_secret YOUR_SECRET \
+--symbol BTCUSDT \
+--side BUY \
+--type market \
+--quantity 0.001
+
+Limit Order
+python bot.py \
+--api_key YOUR_KEY \
+--api_secret YOUR_SECRET \
+--symbol BTCUSDT \
+--side SELL \
+--type limit \
+--quantity 0.001 \
+--price 70000
+
+Stop-Limit Order (Bonus)
+python bot.py \
+--api_key YOUR_KEY \
+--api_secret YOUR_SECRET \
+--symbol BTCUSDT \
+--side BUY \
+--type stop-limit \
+--quantity 0.001 \
+--stop_price 69000 \
+--price 69500
